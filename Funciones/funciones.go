@@ -35,19 +35,19 @@ type Video struct {
 }
 
 func (imagen *Imagen) Mostrar() {
-	fmt.Println(imagen.Titulo)
-	fmt.Println(imagen.Formato)
-	fmt.Println(imagen.Canales)
+	fmt.Println("Titulo de la imagen: ", imagen.Titulo)
+	fmt.Println("Formato de la imagen: ", imagen.Formato)
+	fmt.Println("Canales de la imagen: ", imagen.Canales)
 }
 
 func (audio *Audio) Mostrar() {
-	fmt.Println(audio.Titulo)
-	fmt.Println(audio.Formato)
-	fmt.Println(audio.Duracion)
+	fmt.Println("Titulo del audio: ", audio.Titulo)
+	fmt.Println("Formato del audio: ", audio.Formato)
+	fmt.Println("Duracion del audio: ", audio.Duracion)
 }
 
 func (video *Video) Mostrar() {
-	fmt.Println(video.Titulo)
-	fmt.Println(video.Formato)
-	fmt.Println(video.Frames)
+	fmt.Println("Titulo del video: ", video.Titulo)
+	fmt.Println("Formato del video: ", video.Formato)
+	fmt.Println("Frames del video: ", video.Frames)
 }
